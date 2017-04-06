@@ -19,7 +19,7 @@ function readLine() {
 }
 
 function isJamcoinPrime(num){
-    var max = 100;
+    var max = 7;
     if (num < max) {
         max = Math.sqrt(num);
     }
